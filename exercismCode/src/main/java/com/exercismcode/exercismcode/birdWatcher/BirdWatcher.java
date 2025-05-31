@@ -1,5 +1,7 @@
 package com.exercismcode.exercismcode.birdWatcher;
 
+import java.util.Arrays;
+
 public class BirdWatcher {
 
     private final int[] birdsPerDay;
