@@ -2,6 +2,7 @@ package com.exercismcode.exercismcode;
 
 import com.exercismcode.exercismcode.greeter.Greeter;
 import com.exercismcode.exercismcode.jedlikstoycar.JedliksToyCar;
+import com.exercismcode.exercismcode.loglevels.LogLevels;
 import com.exercismcode.exercismcode.squeakyclean.SqueakyClean;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,13 +16,14 @@ public class ExercismCodeApplication {
 		// Greeter greeter = new Greeter();
 		// greeter.getGreeting();
 
-		JedliksToyCar car = new JedliksToyCar();
+		//JedliksToyCar car = new JedliksToyCar();
 		// Drain the battery
+		/*
 		for (int i = 0; i < 17; i++) {
 			car.drive();
 		}
-
-		System.out.println(car.distanceDisplay());
+		 */
+		System.out.println(LogLevels.reformat("[INFO]: Operation completed"));
 
 
 	}
