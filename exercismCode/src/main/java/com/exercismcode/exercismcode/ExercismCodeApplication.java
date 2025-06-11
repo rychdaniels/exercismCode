@@ -6,6 +6,8 @@ import com.exercismcode.exercismcode.jedlikstoycar.JedliksToyCar;
 import com.exercismcode.exercismcode.loglevels.LogLevels;
 import com.exercismcode.exercismcode.salarycalculator.SalaryCalculator;
 import com.exercismcode.exercismcode.squeakyclean.SqueakyClean;
+import com.exercismcode.exercismcode.wizardsandwarriors.Warrior;
+import com.exercismcode.exercismcode.wizardsandwarriors.Wizard;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -31,7 +33,13 @@ public class ExercismCodeApplication {
 		System.out.println(salaryCalculator.finalSalary(2,90));
 		 */
 
-		System.out.println(FootballMatchReports.onField(11));
+		// System.out.println(FootballMatchReports.onField(11));
+
+		Wizard wizard = new Wizard();
+		Warrior warrior = new Warrior();
+
+		System.out.println(wizard.getDamagePoints(warrior));
+		wizard.prepareSpell();
 
 
 	}
