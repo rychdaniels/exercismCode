@@ -3,6 +3,7 @@ package com.exercismcode.exercismcode;
 import com.exercismcode.exercismcode.greeter.Greeter;
 import com.exercismcode.exercismcode.jedlikstoycar.JedliksToyCar;
 import com.exercismcode.exercismcode.loglevels.LogLevels;
+import com.exercismcode.exercismcode.salarycalculator.SalaryCalculator;
 import com.exercismcode.exercismcode.squeakyclean.SqueakyClean;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -23,7 +24,9 @@ public class ExercismCodeApplication {
 			car.drive();
 		}
 		 */
-		System.out.println(LogLevels.reformat("[INFO]: Operation completed"));
+
+		SalaryCalculator salaryCalculator = new SalaryCalculator();
+		System.out.println(salaryCalculator.finalSalary(2,90));
 
 
 	}
