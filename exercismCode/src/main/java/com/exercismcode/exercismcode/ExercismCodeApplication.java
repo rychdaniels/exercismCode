@@ -1,5 +1,6 @@
 package com.exercismcode.exercismcode;
 
+import com.exercismcode.exercismcode.footballmatchreports.FootballMatchReports;
 import com.exercismcode.exercismcode.greeter.Greeter;
 import com.exercismcode.exercismcode.jedlikstoycar.JedliksToyCar;
 import com.exercismcode.exercismcode.loglevels.LogLevels;
@@ -25,8 +26,12 @@ public class ExercismCodeApplication {
 		}
 		 */
 
+		/*
 		SalaryCalculator salaryCalculator = new SalaryCalculator();
 		System.out.println(salaryCalculator.finalSalary(2,90));
+		 */
+
+		System.out.println(FootballMatchReports.onField(11));
 
 
 	}
