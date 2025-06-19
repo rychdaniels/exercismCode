@@ -7,6 +7,7 @@ import com.exercismcode.exercismcode.loglevels.LogLevels;
 import com.exercismcode.exercismcode.logslogslogs.LogLine;
 import com.exercismcode.exercismcode.salarycalculator.SalaryCalculator;
 import com.exercismcode.exercismcode.squeakyclean.SqueakyClean;
+import com.exercismcode.exercismcode.timfrommarketing.Badge;
 import com.exercismcode.exercismcode.wizardsandwarriors.Warrior;
 import com.exercismcode.exercismcode.wizardsandwarriors.Wizard;
 import org.springframework.boot.SpringApplication;
@@ -43,8 +44,12 @@ public class ExercismCodeApplication {
 		wizard.prepareSpell();
 		 */
 
-		var logLine = new LogLine("[ERR]: Stack Overflow");
+		/*var logLine = new LogLine("[ERR]: Stack Overflow");
 		System.out.println(logLine.getOutputForShortLog());
+		*/
+
+		Badge badge = new Badge();
+		System.out.println(badge.print(254, "Charlotte Hale", null));
 
 
 	}
