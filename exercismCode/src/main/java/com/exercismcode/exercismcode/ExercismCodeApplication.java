@@ -4,6 +4,7 @@ import com.exercismcode.exercismcode.footballmatchreports.FootballMatchReports;
 import com.exercismcode.exercismcode.greeter.Greeter;
 import com.exercismcode.exercismcode.jedlikstoycar.JedliksToyCar;
 import com.exercismcode.exercismcode.loglevels.LogLevels;
+import com.exercismcode.exercismcode.logslogslogs.LogLine;
 import com.exercismcode.exercismcode.salarycalculator.SalaryCalculator;
 import com.exercismcode.exercismcode.squeakyclean.SqueakyClean;
 import com.exercismcode.exercismcode.wizardsandwarriors.Warrior;
@@ -35,11 +36,15 @@ public class ExercismCodeApplication {
 
 		// System.out.println(FootballMatchReports.onField(11));
 
-		Wizard wizard = new Wizard();
+		/* Wizard wizard = new Wizard();
 		Warrior warrior = new Warrior();
 
 		System.out.println(wizard.getDamagePoints(warrior));
 		wizard.prepareSpell();
+		 */
+
+		var logLine = new LogLine("[ERR]: Stack Overflow");
+		System.out.println(logLine.getOutputForShortLog());
 
 
 	}
