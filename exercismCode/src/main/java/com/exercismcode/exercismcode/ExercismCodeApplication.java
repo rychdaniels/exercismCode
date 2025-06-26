@@ -1,5 +1,6 @@
 package com.exercismcode.exercismcode;
 
+import com.exercismcode.exercismcode.captainslog.CaptainsLog;
 import com.exercismcode.exercismcode.footballmatchreports.FootballMatchReports;
 import com.exercismcode.exercismcode.greeter.Greeter;
 import com.exercismcode.exercismcode.jedlikstoycar.JedliksToyCar;
@@ -12,6 +13,8 @@ import com.exercismcode.exercismcode.wizardsandwarriors.Warrior;
 import com.exercismcode.exercismcode.wizardsandwarriors.Wizard;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.Random;
 
 @SpringBootApplication
 public class ExercismCodeApplication {
@@ -48,8 +51,17 @@ public class ExercismCodeApplication {
 		System.out.println(logLine.getOutputForShortLog());
 		*/
 
-		Badge badge = new Badge();
+		/*Badge badge = new Badge();
 		System.out.println(badge.print(254, "Charlotte Hale", null));
+		 */
+
+		CaptainsLog captainsLog = new CaptainsLog(new Random());
+		System.out.println(captainsLog.randomPlanetClass());
+		System.out.println(captainsLog.randomShipRegistryNumber());
+		System.out.println(captainsLog.randomShipRegistryNumber());
+		System.out.println(captainsLog.randomShipRegistryNumber());
+		System.out.println(captainsLog.randomShipRegistryNumber());
+		System.out.println(captainsLog.randomShipRegistryNumber());
 
 
 	}
